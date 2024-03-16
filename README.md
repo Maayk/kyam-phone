@@ -28,7 +28,7 @@ As Notificações é uma classe JavaScript que permite exibir notificações na 
 
 ## Instalação
 
-Não há necessidade de instalação. Basta clonar ou baixar este repositório e abrir o arquivo `index.html` em seu navegador da web.
+Não há necessidade de instalação. Basta clonar ou baixar este repositório e abrir o arquivo `index.html` em seu navegador com algum site local, o proprio vscode tem extensões para preview.
 
 ## Uso
 
