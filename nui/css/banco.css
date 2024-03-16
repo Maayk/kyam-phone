@@ -1,0 +1,16 @@
+.content-banco{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 1.5vh;
+    border-top-right-radius: 1.5vh;
+    border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 3.6vh 2vh 1vh 2vh;
+}
+
+.topbar-banco{
+    color: rgb(0, 0, 0);
+}

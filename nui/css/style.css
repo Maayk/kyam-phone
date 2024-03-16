@@ -1,0 +1,135 @@
+body{
+    background-color: transparent !important;
+    font-family: 'Inter', sans-serif;
+    overflow-y: hidden;
+    
+}
+.phone{
+    width: 28.5vh;
+    height: 55vh;
+    max-height: 55vh;
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    border-radius: 2.5vh;
+    background-image: url('https://i.pinimg.com/originals/f2/be/02/f2be0295c5b3f68c784c36ad00e4b440.jpg');
+    background-size: cover;
+    border-bottom: 2.5vh solid black;
+    border-left: 0.5vh solid black;
+    border-right: 0.5vh solid black;
+    border-top: 1.2vh solid black;
+}
+.home-area{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: -1.4vh;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.home{
+    width: 11.5vh;
+    height: 0.5vh;
+    background-color: rgb(182, 182, 182);
+    position: relative;
+    cursor: pointer;
+    border-radius: 26vh;
+}
+
+.apps{
+    position: absolute;
+    padding: 1.2vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    bottom: 0px;
+}
+.paginacao{
+    position: absolute;
+    width: 25%;
+    height: 7vh;
+    top: 45vh;
+    left: 11.3vh;
+    background-color: transparent;
+    display: none;
+    /* transition: transform 0.6s cubic-bezier(0.83, 0, 0.17, 1); */
+    transition: all 0.2s cubic-bezier(0.30, 0, 0.15, 1);
+}
+.apps span{
+    width: 5.2vh;
+    height: 5.2vh;
+    /* background-color: black; */
+    margin-left: 0.9vh;
+    margin-bottom: 1vh;
+    /* margin: 0.3vh; */
+    border-radius: 0.5vh;
+    animation: createBox .30s;
+}
+
+@keyframes createBox {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes downgrade {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(0);
+    }
+}
+
+.apps span:hover{
+
+}
+
+.topbar{
+    position: relative;
+    height: 3vh;   
+    z-index: 1;
+}
+.topbar i{
+    float: right;
+    margin-right: 1.3vh;
+    margin-top: 0.6vh;
+    font-size: 1.3vh !important;
+}
+.nome-chipe{
+    position: relative;
+    margin-left: 1vh;
+    font-size: 1.3vh;
+}
+
+.content-camera{
+    position: absolute;
+    color: black;
+    background-color: rgb(202, 49, 237);
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 1.5vh;
+    border-top-right-radius: 1.5vh;
+    border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.content-contato{
+    position: absolute;
+    color: black;
+    background-color: rgb(40, 27, 29);
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 1.5vh;
+    border-top-right-radius: 1.5vh;
+    border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
