@@ -1,5 +1,4 @@
 RegisterCommand('celular', function()
-    print('teste??')
     SendNUIMessage({
         action = "abrir",
     })
