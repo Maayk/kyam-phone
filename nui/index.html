@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/notification.css" />
     <link rel="stylesheet" type="text/css" href="css/configs.css" />
     <link rel="stylesheet" type="text/css" href="css/banco.css" />
     <link rel="stylesheet" type="text/css" href="css/camera.css" />
@@ -20,17 +21,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
     <title>Phone</title>
 </head>
+
 <body>
     <div class="phone z-depth-4">
         <div class="topbar">
-            <span class="nome-chipe">Kyam</span>
+            <span class="nome-chipe">Cellphone</span>
             <span class="sinal">
                 <i class="large material-icons">signal_cellular_4_bar</i>
             </span>
+            
             <span class="bateria">
                 <i class="large material-icons">battery_full</i>
             </span>
         </div>
+        <!-- para testar notificação remova o comentario do button abaixo -->
+        <!-- <button id="notificationButton">Perma</button> -->
+
         <div class="apps">
             <span class="aplicativo ajustes z-depth-4" id="ajustes"></span>
             <span class="aplicativo ajustes z-depth-4" id="contato"></span>
@@ -49,4 +55,5 @@
     <div class="phone-mockup"></div>
 </body>
 <script type="text/javascript" src="./scripts/script.js"></script>
+<script type="text/javascript" src="./scripts/notification.js"></script>
 </html>
