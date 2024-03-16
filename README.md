@@ -9,6 +9,16 @@ Isso é um protótipo de celular desenvolvido em JavaScript, HTML e CSS. O siste
 - **Armazenamento em Cache:** O conteúdo das páginas dos aplicativos é armazenado em cache para acesso rápido.
 - **Limpeza Automática de Cache:** O cache é limpo periodicamente para evitar que cresça indefinidamente.
 
+# Notificações
+
+As Notificações é uma classe JavaScript que permite exibir notificações na tela do usuário de forma dinâmica e interativa.
+
+## Funcionalidades
+
+- **Exibir Notificações:** Permite exibir notificações na tela do usuário com um título, uma mensagem e um ícone.
+- **Tempo de Exibição Personalizável:** É possível definir o tempo de exibição de cada notificação, após o qual ela desaparecerá automaticamente.
+- **Botão de Fechar:** As notificações não fixadas (não sempre no topo) têm um botão de fechar para permitir ao usuário fechá-las manualmente.
+
 ## Pré-requisitos
 
 - Navegador da Web moderno que suporte JavaScript.
